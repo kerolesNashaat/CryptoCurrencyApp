@@ -2,7 +2,6 @@ package com.plcoding.cryptocurrencyappyt.presentation.coinListScreen.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -54,7 +53,7 @@ fun CoinListScreen(
                 .fillMaxSize()
                 .padding(top = 30.dp)) {
                 items(items = state.coins) { coin ->
-                    coinListItem(coin = coin, onItemClick = {
+                    CoinListItem(coin = coin, onItemClick = {
                         navController.navigate(route = "${Screen.CoinDetail.route}/$it")
                     })
                 }

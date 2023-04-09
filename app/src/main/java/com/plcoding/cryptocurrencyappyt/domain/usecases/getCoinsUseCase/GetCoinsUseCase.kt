@@ -2,12 +2,10 @@ package com.plcoding.cryptocurrencyappyt.domain.usecases.getCoinsUseCase
 
 import com.plcoding.cryptocurrencyappyt.data.toCoin
 import com.plcoding.cryptocurrencyappyt.domain.model.Coin
-import com.plcoding.cryptocurrencyappyt.domain.model.CoinDetail
 import com.plcoding.cryptocurrencyappyt.domain.repository.PaprikaRepository
 import com.plcoding.cryptocurrencyappyt.utilis.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import java.lang.Exception
 import javax.inject.Inject
 
 class GetCoinsUseCase @Inject constructor(

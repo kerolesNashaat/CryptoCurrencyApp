@@ -6,7 +6,6 @@ import com.plcoding.cryptocurrencyappyt.domain.repository.PaprikaRepository
 import com.plcoding.cryptocurrencyappyt.domain.usecases.getCoinByIdUseCase.GetCoinByIdUseCase
 import com.plcoding.cryptocurrencyappyt.domain.usecases.getCoinsUseCase.GetCoinsUseCase
 import com.plcoding.cryptocurrencyappyt.utilis.BASE_URL
-import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
